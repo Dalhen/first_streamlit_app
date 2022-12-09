@@ -61,10 +61,10 @@ if streamlit.button('Add a Fruit to the List'):
 	back_from_function = insert_row_snowflake(add_my_fruit)
 	streamlit.text(back_from_function)
 	
-fruit_choice_add = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('The user entered ', fruit_choice_add)
-fruit_choice_add_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice_add)
+#fruit_choice_add = streamlit.text_input('What fruit would you like to add?','jackfruit')
+#streamlit.write('The user entered ', fruit_choice_add)
+#fruit_choice_add_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice_add)
 
-streamlit.write('Thanks for adding ', fruit_choice_add)
+#streamlit.write('Thanks for adding ', fruit_choice_add)
 
 #my_cur.execute("insert into fruit_load_list values ('from streamlit')")
