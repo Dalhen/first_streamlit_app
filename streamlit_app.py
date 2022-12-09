@@ -42,6 +42,6 @@ fruit_choice_add = streamlit.text_input('What fruit would you like to add?','jac
 streamlit.write('The user entered ', fruit_choice_add)
 fruit_choice_add_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice_add)
 
-streamlit.write('Thanks for adding ', add_my_fruit)
+streamlit.write('Thanks for adding ', fruit_choice_add)
 
 my_cur.execute("insert into fruit_load_list values ('from streamlit')")
