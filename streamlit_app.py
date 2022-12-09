@@ -44,4 +44,4 @@ fruit_choice_add_response = requests.get("https://fruityvice.com/api/fruit/" + f
 
 streamlit.write('Thanks for adding ', add_my_fruit)
 
-my_cur.execute('insert into fruit_load_list values ('from streamlit')")
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
